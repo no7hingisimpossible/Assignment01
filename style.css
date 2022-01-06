@@ -1,0 +1,216 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.top-section{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content:space-evenly ;
+    
+}
+.profile-picture img{
+    width: 350px;
+}
+.top-title{
+    font-size: 2.5em;
+    border-left: 5px solid rgba(19, 206, 134, 0.753);
+    padding-left:5px ;
+}
+.left{
+    /* border: 2px solid blue; */
+    width: 50%;
+}
+.btn{
+    text-decoration: none;
+    border: none;
+    padding: 10px 40px;
+    background-color: rgba(19, 206, 134, 0.753);
+    border-radius: 3px;
+    color: white;
+}
+#mission-2022{
+    color: rgba(19, 206, 134, 0.753);
+}
+.our-mission-title{
+    text-align: center;
+}
+.our-mission{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom:50px;    
+}
+
+#our-mission-font{
+    font-size: 2em;
+    font-weight: 800;
+}
+
+.box{
+    text-align: left;
+    padding: 30px;
+    width: 250px;
+    min-height:250px;
+    /* border: 2px solid black; */
+    background-color: rgba(137, 43, 226, 0.096);
+    border-radius: 20px;
+    padding: 10px;
+}
+.box img{
+    width: 100px;
+}
+.mission{
+    background: rgba(160, 221, 206, 0.171);
+}
+.vision{
+    background: rgba(105, 236, 182, 0.192);
+}
+.goals{
+    background: rgba(0, 128, 28, 0.219);
+}
+        /* Develop Section */
+
+.develop{
+    display: flex;
+    justify-content: space-around;
+    
+    /* border: 2px solid blue; */
+    height: 300px;
+    
+}
+
+.image-left img{
+    
+    width: 100%;
+}
+.right-text{
+    width: 400px;
+}
+
+        /* Community Section */
+
+
+
+.community{
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+
+.left-text{
+    width: 600px;
+    height: 200px;
+    padding-left: 100px;
+    padding-top: 50px;   
+}
+
+/* The class="pictures" have been used for both Develop and Community sections */
+
+.pictures{
+    width: 300px;
+    height: 300px;
+    padding-right: 100px;
+}
+
+.pictures img{
+width: 100%;
+    
+}
+/* my section */
+.my-website{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    background-color: rgb(2, 123, 145);
+    
+    
+    
+    
+}
+.title{
+    text-align: center;
+    font-size: 5em;
+    /* border-bottom: 2px solid black; */
+
+}
+
+.header{
+    /* border: 2px solid rgb(172, 52, 52); */
+    width: 300px;
+    height: 300px;
+    padding-top: 50px;
+    padding-right: 20px;
+   
+    
+}
+.sea{
+    width: 600px;
+    
+    /* border: 2px solid black; */
+    
+    
+
+} 
+.sea img{
+    width: 100%;
+    border-radius: 0px 10% 0px 0px;
+    box-shadow: 10px 5px 5px black;
+    
+}
+#heal{
+    color: red;
+    font-size: 1.5em;
+}
+.reasons{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(2, 123, 145);
+
+}
+.travel-more{
+    width: 300px;
+    height: 300px;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.coffee{
+    width: 600px;
+    
+    /* border: 2px solid black; */
+    
+}
+.coffee img{
+    width: 100%;
+    box-shadow: -10px 5px 5px black;
+    border-radius: 0 0 0 10%;
+
+}
+#go{
+    color: red;
+}
+.footer{
+    margin-top: 30px;
+    border: 2px solid black;
+    height: 200px;
+    background-color: black;
+}
+.footer-text{
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+.footer-font-size{
+    font-size: 2.5em;
+    font-weight: 500;
+}
+.footer span{
+    color: rgba(19, 206, 134, 0.753);
+}
+
+
